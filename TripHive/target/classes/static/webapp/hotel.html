@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Travel Planner - Hotel Booking</title>
+    <link rel="stylesheet" type="text/css" href="hotel.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">TripHive</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="main.html">Recommendations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="main.html">Flight Booking</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="activity.html">Activity Booking</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main class="container">
+    <h1>Hotel Booking</h1>
+    <div class="search-bar">
+        <input type="text" id="destination-input" placeholder="Enter destination">
+        <button id="search-hotels-btn" class="btn btn-primary">Search</button>
+    </div>
+
+    <div class="hotel-results">
+        <div class="hotel-card">
+            <div class="card-body">
+                <h5 class="card-title">Hotel Example 1</h5>
+                <p class="card-info">Address: 123 Main Street, City, Country</p>
+                <p class="card-info">Price: $100 per night</p>
+                <button class="btn btn-success book-btn">Book</button>
+            </div>
+        </div>
+
+        <div class="hotel-card">
+            <div class="card-body">
+                <h5 class="card-title">Hotel Example 2</h5>
+                <p class="card-info">Address: 456 Elm Street, City, Country</p>
+                <p class="card-info">Price: $150 per night</p>
+                <button class="btn btn-success book-btn">Book</button>
+            </div>
+        </div>
+
+        <div class="hotel-card">
+            <div class="card-body">
+                <h5 class="card-title">Hotel Example 3</h5>
+                <p class="card-info">Address: 789 Oak Street, City, Country</p>
+                <p class="card-info">Price: $200 per night</p>
+                <button class="btn btn-success book-btn">Book</button>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2023 TripHive. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>

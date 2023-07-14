@@ -1,0 +1,42 @@
+.recommendation-card {
+  border: none;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-bottom: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+
+.recommendation-card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.recommendation-card .card-body {
+  border:1px solid black;
+  padding: 20px;
+}
+
+.recommendation-card .card-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.recommendation-card .card-info {
+  font-size: 14px;
+  color: #666;
+}
+
+.recommendation-card .book-btn {
+  background-color: #28a745;
+  border-color: #28a745;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.recommendation-card .book-btn:hover {
+  background-color: #218838;
+  border-color: #218838;
+}
